@@ -1,0 +1,174 @@
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover { color: #eab9c9 !important; }
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #413c69;
+  text-shadow: none;
+  background-color: #fff;
+  border: .05rem solid #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+/*Base structure*/
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #413c69;
+  color: #fff;
+  text-align: center;
+}
+
+h1, h3 {
+  font-family: 'Marcellus', serif;
+}
+h2{
+  font-family: 'Marcellus', serif;
+}
+
+h4 {
+  font-family: 'Marcellus', serif;
+  font-weight:bolder;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header and Navigation Bar */
+.masthead-brand,
+.masthead-brand:hover,
+.masterhead-brand:focus {
+  color: #eab9c9;
+  font-size: 1.5rem;
+  font-family: 'Marcellus', serif;
+}
+
+.navbar {
+  padding: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-link:focus,
+.nav-link:active,
+.nav-link:hover {
+  border-bottom: .25rem solid transparent;
+  border-bottom-color: #eab9c9;
+}
+
+/* Cover */
+.title {
+  position: relative;
+  padding: 0 0 8rem 0;
+}
+
+.avatar-img {
+width: 20%;
+border-radius: 50%;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+/* Skills */
+
+.skill-img{
+  color: #ad62aa;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.skill-img:hover {
+color:#413c69;
+}
+
+#skills {
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+
+.skills-box{
+  text-align: center;
+  padding: 3%;
+}
+
+/* Education */
+#education {
+  padding:7% 15%;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+}
+.space-format{
+  display: block;
+  margin-bottom: 6px;
+}
+
+.education-box {
+    padding: 0 0 3% 0;
+}
+
+/* Experience */
+#experience{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+/* About */
+
+.h1-about{
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.profile-img{
+  width: 40%;
+  border-radius: 50%;
+  border: solid 7px #ad62aa;
+}
+
+.profile-img:hover{
+  border: solid 7px #eab9c9;
+}
+
+.text-about{
+  text-align: left;
+}
+
+/* Footer */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
